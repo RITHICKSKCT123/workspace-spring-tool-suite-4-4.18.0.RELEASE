@@ -1,0 +1,18 @@
+package com.snapchat.demo.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.snapchat.demo.service.StudentService;
+
+@RestController
+public class StudentController {
+	@Autowired
+	StudentService studSeervice;
+	
+	public List<Student> getAllStudents()
+	{
+		
+	}
+
+}

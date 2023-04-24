@@ -1,0 +1,16 @@
+package com.example.demo.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class FacebookRegController {
+
+	public String Signin()
+	{
+		return "I am in the Signin page";
+	}
+	public String Signup()
+	{
+		return "I am in the Signup page";
+	}
+}
